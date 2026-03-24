@@ -1,0 +1,1 @@
+Get-Content server.log, db.log | gemini "You are a senior systems engineer. Read these logs, ignore INFO, and find all ERROR and FATAL messages. Present them in a Markdown table with 'Severity' and 'Content'. Provide brief fix suggestions below the table." | Out-File -FilePath report.md -Encoding utf8
