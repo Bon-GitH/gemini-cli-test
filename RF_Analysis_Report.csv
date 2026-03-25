@@ -1,0 +1,14 @@
+﻿Category,Component/Feature,Function,Specifications/Bands
+RF Module,QM77078 L-PAMiD,整合式中高頻段(MHB)發射與接收前端模組,"支援 2G/3G/4G/5G NR 通訊標準"
+Power Amplifier,MB & HB PA,提供中頻與高頻發射訊號增益並支援功率追蹤,"支援 PC2 功率等級 (B40, B41, n40, n41); 支援 APT (平均功率追蹤)"
+Low Noise Amplifier,Integrated LNAs,提升接收路徑靈敏度並整合多路徑切換,整合中頻與高頻 LNA; 支援 Rx RFFE V3.0 控制
+Filters/Duplexers,Integrated Band Filters,提供發射/接收頻段隔離與雜訊抑制,"支援頻段: B1, 2/25, 3, 66, 4, 7, 34, 39, 40, 41(38)"
+RF Switching,Distribution Switch (DSW),負責 PA 輸出訊號到不同濾波器與 AUX 路徑的分配切換,支援多頻段載波聚合 (CA) 與 SRS 切換
+Antenna Switch,ASW + Coupler,切換天線輸出路徑並提供功率監測耦合功能,整合耦合器可選 ANT1 或 ANT2 輸出; 支援 SRS Out
+SRS Functionality,SRS Switching,提供 5G 探測參考訊號 (SRS) 快速切換以優化上行鏈路,"支援 SRS In (TRX1) 與天線端 SRS Out"
+MIMO,Internal DPDT,內部雙刀雙擲開關支援多天線接收路徑切換,支援多頻段 MIMO 配置
+Interface,MIPI RFFE,標準化 RF 前端元件數位控制介面,"Tx RFFE V2.1; Rx RFFE V3.0; 支援 1.2V/1.8V 邏輯電壓"
+Carrier Aggregation,DL CA Support,支援跨頻段與頻段內下行載波聚合,"B1+B3+B7, B25+B41+B66, B7+B1+B3 等多種組合"
+Electrical,VBATT Supply,供電給 RF 開關與放大器偏壓電路,2.8V 至 5.0V (典型值 3.8V)
+Electrical,Vcc1/Vcc2,供電給功率放大器各級電路,0.5V 至 5.0V (視應用功率等級而定)
+Physical,56-pin Package,緊湊型無引腳表面黏著封裝,"5.42 x 6.70 x 0.65 (max) mm"
